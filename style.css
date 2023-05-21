@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppin", sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #002B5B;
+}
+
+.container {
+    width: 40%;
+    height: 70vh;
+    background-color: #05BFDB;
+    margin: 8%;
+    border-radius: 20px;
+    overflow: hidden;
+    overflow-y: scroll;
+
+}
+
+h1 {
+    margin-top: 20px;
+    text-align: center;
+    color: #D14D72;
+
+}
+
+.containerinput {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+input {
+    width: 65%;
+    height: 5vh;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+i {
+
+    background-color: rgb(255, 192, 10);
+    color: white;
+    font-size: 20px;
+    transition: 0.1s ease-in;
+
+}
+
+button {
+
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    padding: 5px;
+    width: 5vh;
+    height: 5vh;
+    background-color: rgb(255, 192, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+button:hover i {
+    opacity: 1;
+}
+
+#todo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+li {
+    list-style: none;
+    background-color: white;
+    width: 49vh;
+    height: 5vh;
+    margin-right: 10px;
+    border-radius: 3px;
+    padding: 10px;
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.todolist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
+
+#deletebutton {
+    display: none;
+}
